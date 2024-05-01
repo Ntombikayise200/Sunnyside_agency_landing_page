@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color:lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navcontainer{
+    background-color:lightblue;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.nav-list li:first-child {
+    margin-left: 0;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    background-color: #555;
+}
+.about {
+    text-align: center; /* Center align the content */
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+
+}
+.header{
+    width: 50%;
+    background-color: transparent;
+}
+
+
+.card {
+    width: 80%; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-content {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    margin-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.testimonial {
+    width: 300px;
+    margin: 20px;
+}
+
+.testimonial img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.position {
+    font-style: italic;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+.projects {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; /* Vertically center images */
+}
+
+.projects img {
+    max-width: 300px; /* Adjust as needed */
+    margin: 0 40px; /* Adjust as needed */
+}
+.social-icons {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px; /* Adjust as needed */
+}
+
+.social-icons img {
+    width: 40px; /* Adjust the size of the icons */
+    height: auto;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+    font-size: 14px;
+    color: #666; /* Adjust color as needed */
+}
+
+.attribution a {
+    color: #007bff; /* Adjust link color as needed */
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
